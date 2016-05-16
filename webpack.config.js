@@ -22,7 +22,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new ExtractTextPlugin("./style/style.css", {allChunks: false})
+    new ExtractTextPlugin('style/style.css', {allChunks: false})
   ],
   resolve: {
     extensions: ['', '.js', '.jsx']
